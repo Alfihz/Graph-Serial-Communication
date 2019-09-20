@@ -1,0 +1,13 @@
+E:\Visual Studio Programs\Distance Sensor using Flight of time\bin\Debug\Distance Sensor using Flight of time.exe.config
+E:\Visual Studio Programs\Distance Sensor using Flight of time\bin\Debug\Distance Sensor using Flight of time.exe
+E:\Visual Studio Programs\Distance Sensor using Flight of time\bin\Debug\Distance Sensor using Flight of time.pdb
+E:\Visual Studio Programs\Distance Sensor using Flight of time\obj\Debug\Distance Sensor using Flight of time.csprojAssemblyReference.cache
+E:\Visual Studio Programs\Distance Sensor using Flight of time\obj\Debug\Distance_Sensor_using_Flight_of_time.Form1.resources
+E:\Visual Studio Programs\Distance Sensor using Flight of time\obj\Debug\Distance_Sensor_using_Flight_of_time.Properties.Resources.resources
+E:\Visual Studio Programs\Distance Sensor using Flight of time\obj\Debug\Distance Sensor using Flight of time.csproj.GenerateResource.cache
+E:\Visual Studio Programs\Distance Sensor using Flight of time\obj\Debug\Distance Sensor using Flight of time.csproj.CoreCompileInputs.cache
+E:\Visual Studio Programs\Distance Sensor using Flight of time\obj\Debug\Distance Sensor using Flight of time.exe
+E:\Visual Studio Programs\Distance Sensor using Flight of time\obj\Debug\Distance Sensor using Flight of time.pdb
+E:\Visual Studio Programs\Distance Sensor using Flight of time\obj\Debug\Distance_Sensor_using_Flight_of_time.Form2.resources
+E:\Visual Studio Programs\Distance Sensor using Flight of time\bin\Debug\kayChart.dll
+E:\Visual Studio Programs\Distance Sensor using Flight of time\obj\Debug\Distance Sensor using Flight of time.csproj.CopyComplete
