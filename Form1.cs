@@ -7,7 +7,6 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 using System.IO.Ports;
-using rtChart;
 using System.Windows.Forms.DataVisualization.Charting;
 using System.IO;
 
@@ -17,7 +16,7 @@ namespace Distance_Sensor_using_Flight_of_time
     {
         string recvData = "temporary";
         bool breakloop = false;
-        kayChart chartData;
+        //kayChart chartData;
         bool buttonPress = false;
         int pointsCounter = 0;
         int firstpoint = 0;
@@ -44,7 +43,7 @@ namespace Distance_Sensor_using_Flight_of_time
                 cboCOM.SelectedIndex = 0;
 
             //kayChart real time
-            chartData = new kayChart(chart1, 60);
+            //chartData = new kayChart(chart1, 60);
 
             btnStart.Enabled = false;
             //btnSave.Enabled = false;
@@ -122,7 +121,7 @@ namespace Distance_Sensor_using_Flight_of_time
                             //chartData.serieName = "Length";
                             //chart1.Invoke((MethodInvoker)delegate { chart1.Series["Length"].Points.AddXY(pointsCounter, data); });
                             //chart1.Invoke((MethodInvoker)delegate { chart1.Series["Length"].Points[pointsCounter].Color = Color.Blue; });
-
+                            rtbData.Invoke((MethodInvoker)delegate { rtbData.SelectionColor = Color.Blue; });
                             chart1.Invoke((MethodInvoker)delegate { s.Points[pointsCounter].Color = Color.Blue; });
                         }
                         else
@@ -131,7 +130,7 @@ namespace Distance_Sensor_using_Flight_of_time
                             //chartData.serieName = "Series1";
                             //chart1.Invoke((MethodInvoker)delegate { chart1.Series["Length"].Points.AddXY(pointsCounter, data); });
                             //chart1.Invoke((MethodInvoker)delegate { chart1.Series["Length"].Points[pointsCounter].Color = Color.Red; });
-
+                            rtbData.Invoke((MethodInvoker)delegate { rtbData.SelectionColor = Color.Red; });
                             chart1.Invoke((MethodInvoker)delegate { s.Points[pointsCounter].Color = Color.Red; });
                             if (redLine == false)
                             {
@@ -255,6 +254,10 @@ namespace Distance_Sensor_using_Flight_of_time
                     sr.Close();
                 }
                 openData = list.ToArray();
+
+                Form2 frm2 = new Form2();
+                frm2.openData = openData;
+                frm2.Show();
             }
         }
     }

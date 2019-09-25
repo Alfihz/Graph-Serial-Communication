@@ -166,7 +166,7 @@ namespace Distance_Sensor_using_Flight_of_time
             this.Controls.Add(this.btnStart);
             this.Controls.Add(this.btnConnect);
             this.Name = "Form1";
-            this.Text = "Ducky";
+            this.Text = "Graphing Serial Communication";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.chart1)).EndInit();
             this.ResumeLayout(false);
