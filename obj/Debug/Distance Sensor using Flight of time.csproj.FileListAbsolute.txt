@@ -11,3 +11,7 @@ E:\Visual Studio Programs\Distance Sensor using Flight of time\obj\Debug\Distanc
 E:\Visual Studio Programs\Distance Sensor using Flight of time\obj\Debug\Distance_Sensor_using_Flight_of_time.Form2.resources
 E:\Visual Studio Programs\Distance Sensor using Flight of time\bin\Debug\kayChart.dll
 E:\Visual Studio Programs\Distance Sensor using Flight of time\obj\Debug\Distance Sensor using Flight of time.csproj.CopyComplete
+E:\Visual Studio Programs\Distance Sensor using Flight of time\obj\Debug\Distance_Sensor_using_Flight_of_time.FormData.resources
+E:\Visual Studio Programs\Distance Sensor using Flight of time\obj\Debug\Distance_Sensor_using_Flight_of_time.FormMain.resources
+E:\Visual Studio Programs\Distance Sensor using Flight of time\obj\Debug\Distance_Sensor_using_Flight_of_time.FormPasien.resources
+E:\Visual Studio Programs\Distance Sensor using Flight of time\obj\Debug\Distance_Sensor_using_Flight_of_time.FormTambahPasien.resources
